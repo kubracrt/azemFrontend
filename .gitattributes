@@ -1,0 +1,5 @@
+assets/* filter=lfs diff=lfs merge=lfs -text
+src/Assets/*.jpg filter=lfs diff=lfs merge=lfs -text
+src/Assets/*.png filter=lfs diff=lfs merge=lfs -text
+src/Assets/*.mp4 filter=lfs diff=lfs merge=lfs -text
+src/Assets/*.{png,jpg,jpeg,gif} filter=lfs diff=lfs merge=lfs -text

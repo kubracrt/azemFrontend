@@ -1,0 +1,75 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    text-align: center;
+    position: relative;
+    background-color: rgb(23, 23, 27);
+    font-family: sans-serif;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden; 
+  }
+  
+  .text1 {
+    letter-spacing: 8px;
+    animation: text1 4s ease-in-out;
+  }
+
+ 
+ 
+  @keyframes text1 {
+    0% {
+      color: rgb(245, 238, 219);
+      letter-spacing: 8px; 
+    }
+    30% {
+      letter-spacing: 25px;
+    }
+    85% {
+      letter-spacing: 8px;
+    }
+    100% {
+      color: #ffffff;
+    }
+  }
+  
+  @keyframes fadeInOut {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  .fade-in {
+    animation: fadeIn 1s ease-in;
+  }
+  
+  .fade-out {
+    animation: fadeOut 1s ease-out;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes fadeOut {
+    from {
+      opacity: 1;
+    }
+    to {
+      opacity: 0;
+    }
+  }
+  
